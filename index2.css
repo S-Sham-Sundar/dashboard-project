@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color:rgb(247, 245, 120);
+    color: #9292f9 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widgets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-around;
+    color: white;
+}
+
+.nameboard {
+    font-size: 28px;
+    font-weight: bold;
+    color: #24241d;
+    background: #9292f9;
+    padding: 12px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #9292f9 ;
+}
+
+.widget1,
+.widget2,
+.widget3,
+.widget4 {
+    width: 301px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 16px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    min-height: 500px;
+    box-shadow: 0 4px 8px rgb(198, 84, 103);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.widget1:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(122, 190, 236);
+    transform: translateY(-15px);
+}
+
+.widget2:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(158, 237, 148);
+    transform: translateY(-15px);
+}
+
+.widget3:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(237, 192, 137);
+    transform: translateY(-15px);
+}
+
+.widget4:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(239, 154, 220);
+    transform: translateY(-15px);
+}
+
+input:hover {
+    color: white;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 3px;
+}
+input{
+    border-radius: 7px;
+} 
+.addbutton{
+    border-radius: 7px;
+}
